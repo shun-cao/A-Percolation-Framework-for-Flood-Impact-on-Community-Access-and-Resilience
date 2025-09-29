@@ -8,6 +8,23 @@ A clean, reproducible Python toolkit to study how incremental flooding (by water
 
 > This repository is a streamlined, documented rework of an internal script, trimmed to remove ad‑hoc references, machine-specific paths, and exploratory extras so paper readers can repeat the study or run a new area with minimal friction.
 
+## Usage
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run simulation:
+   ```bash
+   python simulate.py "Broome County, NY, USA" /path/to/dem.tif
+   ```
+
+3. Output:
+   - metrics.csv
+   - fragmentation.png
+
+
 ## Quick Start
 
 1. **Create a Python env** (conda recommended):
